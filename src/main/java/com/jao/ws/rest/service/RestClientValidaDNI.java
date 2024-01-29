@@ -12,7 +12,7 @@ public class RestClientValidaDNI {
 	public static void main(String arg[]){
 		String endPoint="http://localhost:8080/jaodni/services/jaoRest/validarDNI";
 		VODocumentoDNI vo = new VODocumentoDNI();
-		vo.setNombre("Gorka");
+		vo.setNombre("Gorka.");
 		vo.setApellidos("De Goñi");
 		//vo.setDni("Y2894141L");
 		vo.setDni("37966238T");
