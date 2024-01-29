@@ -43,7 +43,8 @@ public class ServiceValidaDocumentoDNI {
            mat = patron.matcher(dniIntroducido);
            vo.setValido(false);
         }
-        System.out.println("El DNI " + dniIntroducido + " es válido.");	*/
+        System.out.println("El DNI " + dniIntroducido + " es válido.");
+        	*/
 		return vo;
 	}
 	private static final Pattern REGEXP = Pattern.compile("[0-9]{8}[A-Z]");

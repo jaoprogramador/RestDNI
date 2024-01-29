@@ -18,9 +18,9 @@ public class RestClientValidaDNI {
 		vo.setDni("37966238T");
 		vo.setSexo("Masculino");
 		vo.setValido(false);
-		System.out.println("###################################################");
+		System.out.println("################################################### ");
 		System.out.println("INI INVOKE REST SERVICE [SW Rest] "+endPoint);
-		System.out.println("###################################################");
+		System.out.println("################################################### ");
 		ClientConfig clientConfig = new DefaultClientConfig(); 
 		clientConfig.getFeatures().put(JSONConfiguration.FEATURE_POJO_MAPPING, Boolean.TRUE);
 		Client client = Client.create(clientConfig);
